@@ -15,3 +15,11 @@ nginx:
         - restore
     links:
         - restore:api.restore.platypi.dev
+arangodb:
+    restart: always
+    image: arangodb:2.8
+    ports:
+        - "8529:8529"
+    environment:
+#        ARANGO_ROOT_PASSWORD: aarongo
+        ARANGO_NO_AUTH: 1
