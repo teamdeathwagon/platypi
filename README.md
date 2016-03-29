@@ -20,7 +20,8 @@ After creating this virtualenv, going forward you only need to use `source .venv
 ### Light 'er up
 
 Assuming you followed the docker engine installation instructions, you should be able to get things started.
-1. Spin up the VM `docker-machine create -d virtualbox platypi;`
+
+1. Spin up the VM `docker-machine create -d virtualbox platypi`
   * This VM should show as 'inactive' when you run `docker-machine ls`
 2. Attach Docker to the VM `eval "$(docker-machine env platypi)"`
   * This should now show the docker-machine as 'active' when you run `docker-machine ls`
