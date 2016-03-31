@@ -1,4 +1,4 @@
-# platypi ~ REST platform
+# platypi ~ dynamic data platform
 
 ## Getting Started
 
